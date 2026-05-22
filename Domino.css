@@ -62,16 +62,16 @@ body {
     background-color: grey;
 }
 
-#game-container {
-    background-color: white;
-
-    padding: 20px;
-
-    border-radius: 20px;
-}
-
 #gameCanvas {
     background-color: white;
 
     border: 5px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1000px;
+    height: 600px;
 }
+
